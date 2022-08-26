@@ -1,0 +1,10 @@
+user journey :
+    landing page
+    browse by levels or subject
+        levels :
+            secondary school (1,2,3)
+                branches (Sc,Lit);
+make it simple :
+
+
+
