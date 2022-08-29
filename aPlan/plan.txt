@@ -8,3 +8,40 @@ make it simple :
 
 
 
+guest:
+    main page :
+        left (display content)
+            1- available contributions in this lesson
+                lesson card
+                    top:
+                        photo
+                    bottom :
+                        title
+                        rating
+                        made by /*--*/
+            2- view lesson
+                download link for PDF file
+                Display the PDF file
+                rate the lesson
+        right (menu)
+            levels
+                1st/2nd/3rd years
+                    branches
+                        Scientific / Literature
+                            units
+MENU:
+logged in user (material designer):
+left (menu):
+    my lessons
+        view all
+        view by units and levels and branches
+    add new lesson
+        form :
+            level
+            branches
+            unit
+            title
+            files
+            photo (optional)
+right (content):
+
