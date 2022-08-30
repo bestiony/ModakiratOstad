@@ -18,6 +18,8 @@ return new class extends Migration
             $table->foreignId('branch_id')->constrained();
             $table->foreignId('subject_id')->constrained();
             $table->foreignId('unit_id')->constrained();
+            $table->primary(['level_id','branch_id','unit_id']);
+
             $table->timestamps();
         });
     }

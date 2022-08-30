@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('branch_levels', function (Blueprint $table) {
             $table->foreignId("level_id")->constrained();
             $table->foreignId("branch_id")->constrained();
+            $table->primary(['level_id','branch_id']);
             $table->timestamps();
         });
     }

@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Lesson extends Model
 {
     use HasFactory;
+
+    public function lessonPlans(){
+        return $this->hasMany(lessonplan::class,'lesson_id');
+    }
 }

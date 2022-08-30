@@ -17,6 +17,7 @@ return new class extends Migration
             $table->foreignId('level_id')->constrained();
             $table->foreignId('branch_id')->constrained();
             $table->foreignId('subject_id')->constrained();
+            $table->primary(['level_id','branch_id','subject_id']);
             $table->timestamps();
         });
     }
